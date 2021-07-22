@@ -3,7 +3,7 @@ import one.digitalinnovation.digionebank.Gerente
 
 
 fun main(){
-    val filipe = Gerente(nome = "Filipe Braz", cpf =  "549849841", salario =  5000.0)
+    val filipe = Gerente(nome = "Filipe Braz", cpf =  "549849841", salario =  5000.0, senha = "1234")
 ImprimeRelatorioFuncionario.imprime(filipe)
 }
 
